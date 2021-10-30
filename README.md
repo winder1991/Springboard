@@ -7,3 +7,6 @@ A Data Visualization project done during data science cource for data science ce
 
 --mec-3.4.1-api-mini-project：
 In this mini-project, I use API requests to grab data from NASDAQ and analyze data based on requirements using Jupyter Notebook.
+
+--iris
+A practice for plotting using matplotlib, also tried to show legends without using seaborn
