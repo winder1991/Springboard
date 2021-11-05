@@ -10,3 +10,6 @@ In this mini-project, I use API requests to grab data from NASDAQ and analyze da
 
 --iris
 A practice for plotting using matplotlib, also tried to show legends without using seaborn
+
+--mec-5.3.10-data-wranging-with-pandas-mini-project：
+A practice for data wrangling using pandas and plot charts
