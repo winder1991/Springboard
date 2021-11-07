@@ -13,3 +13,6 @@ A practice for plotting using matplotlib, also tried to show legends without usi
 
 --mec-5.3.10-data-wranging-with-pandas-mini-project：
 A practice for data wrangling using pandas and plot charts
+
+--mec-5.4.4-json-data-wrangling-mini-project：
+A practice for data wrangling import json and use json_normalize to unwind nested structure of json file
