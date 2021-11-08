@@ -16,3 +16,9 @@ A practice for data wrangling using pandas and plot charts
 
 --mec-5.4.4-json-data-wrangling-mini-project：
 A practice for data wrangling import json and use json_normalize to unwind nested structure of json file
+
+--mec-5.5.4-webscraping-project：
+A practice based on tutorial <https://docs.scrapy.org/en/latest/intro/tutorial.html>. The following is done:
+   1) a class based on scrapy css method
+   2) a class based on scrapy xpath method
+   3) a python file which writes the json file to sqlite
