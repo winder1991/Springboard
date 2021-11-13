@@ -22,3 +22,8 @@ A practice based on tutorial <https://docs.scrapy.org/en/latest/intro/tutorial.h
    1) a class based on scrapy css method
    2) a class based on scrapy xpath method
    3) a python file which writes the json file to sqlite
+
+--mec-5.6.6-sql-with-spark-mini-project：
+This project is using spark sql in Databricks. 
+The following link is a published view, but will expire in 6 month:
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4306574174881512/1987665294358223/113266931557391/latest.html
