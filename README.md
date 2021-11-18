@@ -27,3 +27,8 @@ A practice based on tutorial <https://docs.scrapy.org/en/latest/intro/tutorial.h
 This project is using spark sql in Databricks. 
 The following link is a published view, but will expire in 6 month:
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4306574174881512/1987665294358223/113266931557391/latest.html
+
+--mec-6.4.1.data-wrangling-at-scale-with-spark:
+This project is a practice based on NASA log. It does EDA and ETL.
+The project is done in Databrick. The following link is a published view, which will expire in 6 months:
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4306574174881512/3281807393584500/113266931557391/latest.html
