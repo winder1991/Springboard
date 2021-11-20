@@ -32,3 +32,6 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 This project is a practice based on NASA log. It does EDA and ETL.
 The project is done in Databrick. The following link is a published view, which will expire in 6 months:
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4306574174881512/3281807393584500/113266931557391/latest.html
+
+--SampleDataForCapstone:
+This is a EDA process for capstone process with some sample dataset for commercial energy, residential energy and weather data.
