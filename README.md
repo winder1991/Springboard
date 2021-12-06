@@ -35,3 +35,11 @@ https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93e
 
 --SampleDataForCapstone:
 This is a EDA process for capstone process with some sample dataset for commercial energy, residential energy and weather data.
+
+--mec-11.4.1-linear-regression-mini-project:
+This is an exercise focus on linear regression model using both sklearn and statsmodel.
+It investigate the boston dataset and evaluate the model in the following parameters:
+    - outlier and leverage
+    - R-squared value
+    - F-statistic
+    - F-test
