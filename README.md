@@ -43,3 +43,7 @@ It investigate the boston dataset and evaluate the model in the following parame
     - R-squared value
     - F-statistic
     - F-test
+
+--mec-12.4.2-logistic-regression-mini-project
+This is an exercise on classification using logistic regression method.
+It runs GridSerachCV and discusses the math behind the algorithm.
