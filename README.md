@@ -47,3 +47,6 @@ It investigate the boston dataset and evaluate the model in the following parame
 --mec-12.4.2-logistic-regression-mini-project
 This is an exercise on classification using logistic regression method.
 It runs GridSerachCV and discusses the math behind the algorithm.
+
+--mec-13.5.1-tree-based-algorithms-mini-project
+This is a decision tree practice project. It also has some investigation on the xgboost, catboost and lightgbm.
