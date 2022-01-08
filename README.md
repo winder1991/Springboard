@@ -50,3 +50,6 @@ It runs GridSerachCV and discusses the math behind the algorithm.
 
 --mec-13.5.1-tree-based-algorithms-mini-project
 This is a decision tree practice project. It also has some investigation on the xgboost, catboost and lightgbm.
+
+--mec-18.5.1-time-series-analysis-mini-project
+This is a mini project which builds a ARIMA model and a LSTM model for predicting IBM price.
