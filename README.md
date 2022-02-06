@@ -53,3 +53,7 @@ This is a decision tree practice project. It also has some investigation on the 
 
 --mec-18.5.1-time-series-analysis-mini-project
 This is a mini project which builds a ARIMA model and a LSTM model for predicting IBM price.
+
+--mec-16.2.6-clustering-mini-project
+This is a mini project working with clustering algorithms from sklearn. It focuses on K-means, and explores visualization using PCA.
+Additionally, it explores the alogorithms like Spectral Clustering, DBSCAN, Affinity propagation and Agglomerative clustering.
