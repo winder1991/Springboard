@@ -57,3 +57,7 @@ This is a mini project which builds a ARIMA model and a LSTM model for predictin
 --mec-16.2.6-clustering-mini-project
 This is a mini project working with clustering algorithms from sklearn. It focuses on K-means, and explores visualization using PCA.
 Additionally, it explores the alogorithms like Spectral Clustering, DBSCAN, Affinity propagation and Agglomerative clustering.
+
+-- Capstone-Visualization
+This is the visualization step for capstone project. It explores the plot of building energy in a year
+It also investigated the relationship among humidity, temperature and energy.
