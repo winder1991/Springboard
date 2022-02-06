@@ -61,3 +61,7 @@ Additionally, it explores the alogorithms like Spectral Clustering, DBSCAN, Affi
 -- Capstone-Visualization
 This is the visualization step for capstone project. It explores the plot of building energy in a year
 It also investigated the relationship among humidity, temperature and energy.
+
+--mec-16.4.1-anomaly-detection-mini-project
+Anomaly detection practice. Tried with 3-sigma outlier detection, and then with isolation forest in sklearn.
+Then with pyod lib, tried CBLOF, isolation forest and autoencoder on multivariate anomaly detection.
