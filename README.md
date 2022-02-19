@@ -65,3 +65,7 @@ It also investigated the relationship among humidity, temperature and energy.
 --mec-16.4.1-anomaly-detection-mini-project
 Anomaly detection practice. Tried with 3-sigma outlier detection, and then with isolation forest in sklearn.
 Then with pyod lib, tried CBLOF, isolation forest and autoencoder on multivariate anomaly detection.
+
+--mec-17.4.1-recommendation-systems-mini-project
+This is a practice on recommendation system, it explores the recommendation system based on content and user.
+For content, it uses TFIDF to compare the similarity and developed a model using tensorflow.
