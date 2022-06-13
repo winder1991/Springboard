@@ -1,0 +1,459 @@
+{
+	"info": {
+		"_postman_id": "1b901125-a312-4e1f-81d0-d4a054a46f86",
+		"name": "Forecast Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15319693"
+	},
+	"item": [
+		{
+			"name": "Get Forecast Data based on building id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "data",
+						"value": "[1,2,3]",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:81/forecast?buildList=[1447,25065]&days_in_future=3&use_center=False",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "buildList",
+							"value": "[1447,25065]"
+						},
+						{
+							"key": "days_in_future",
+							"value": "3"
+						},
+						{
+							"key": "use_center",
+							"value": "False"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get County Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "data",
+						"value": "[1,2,3]",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:81/forecast?buildList=[1447,25065]&days_in_future=3&use_center=False",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "buildList",
+							"value": "[1447,25065]"
+						},
+						{
+							"key": "days_in_future",
+							"value": "3"
+						},
+						{
+							"key": "use_center",
+							"value": "False"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Use Center to Get Forecast Data based on building id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "data",
+						"value": "[1,2,3]",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:81/forecast?buildList=[1447,25065,42606 ]&days_in_future=3&use_center=True",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "buildList",
+							"value": "[1447,25065,42606 ]"
+						},
+						{
+							"key": "days_in_future",
+							"value": "3"
+						},
+						{
+							"key": "use_center",
+							"value": "True"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1-Get Forecast Data based on building id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "data",
+						"value": "[1,2,3]",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:81/forecast?buildList=[1447]&days_in_future=3&use_center=False",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"forecast"
+					],
+					"query": [
+						{
+							"key": "buildList",
+							"value": "[1447]"
+						},
+						{
+							"key": "days_in_future",
+							"value": "3"
+						},
+						{
+							"key": "use_center",
+							"value": "False"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Energy Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Time",
+							"value": "2022-05-11T12:15:00Z",
+							"description": "Timestamp",
+							"type": "text"
+						},
+						{
+							"key": "MW",
+							"value": "12",
+							"description": "Real Power Usage",
+							"type": "text"
+						},
+						{
+							"key": "Temperature",
+							"value": "25",
+							"description": "Temperature",
+							"type": "text"
+						},
+						{
+							"key": "Humidity",
+							"value": "43",
+							"description": "Humidity",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:81/historical?is_batch=0",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"historical"
+					],
+					"query": [
+						{
+							"key": "is_batch",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Energy Data in batch",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Time",
+							"value": "[2022-05-11T12:15:00Z,2022-05-11T12:30:00Z,2022-05-11T12:45:00Z,2022-05-11T13:15:00Z]",
+							"type": "text"
+						},
+						{
+							"key": "MW",
+							"value": "[35,35.5, 34, 34.6]",
+							"type": "text"
+						},
+						{
+							"key": "Temperature",
+							"value": "[25,25,25,25]",
+							"type": "text"
+						},
+						{
+							"key": "Humidity",
+							"value": "[50,51,50,51]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:81/historical?is_batch=1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"historical"
+					],
+					"query": [
+						{
+							"key": "is_batch",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post CSV File to update database building_energy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/MLBootCamp/Springboard/Flask_API/Flask_API_Forecast/test/building_energy.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:81/historical/csv?file_type=0",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"historical",
+						"csv"
+					],
+					"query": [
+						{
+							"key": "file_type",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post CSV File to update database county_building",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/MLBootCamp/Springboard/Flask_API/Flask_API_Forecast/test/county_building.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:81/historical/csv?file_type=1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"historical",
+						"csv"
+					],
+					"query": [
+						{
+							"key": "file_type",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post CSV File to update database county_weather",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/MLBootCamp/Springboard/Flask_API/Flask_API_Forecast/test/county_weather.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:81/historical/csv?file_type=2",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"historical",
+						"csv"
+					],
+					"query": [
+						{
+							"key": "file_type",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clear Database",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:81/cleardb",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"cleardb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:81/test",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert Test Energy File",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:81/test",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "81",
+					"path": [
+						"test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -73,3 +73,6 @@ For content, it uses TFIDF to compare the similarity and developed a model using
 --mec-23.2.8-scalable-ml-with-spark-ml-mini-project
 This is a project focusing on practicing spark machine learning libraries, including linear regression classifier, GBT classifier and Random Forest Classifier. The project is done in Databrick. The following link is a published view, which will expire in 6 months:
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4306574174881512/1397366416372765/113266931557391/latest.html
+
+-- Capstone- API:
+This includes a flask API built for initiate a mongodb and forecast data based on imported data. It uses the model developed in Capstone- Prototype. It also includes a front-end using streamlit to host a web that calls api developed in flask API.
