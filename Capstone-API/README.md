@@ -18,13 +18,13 @@ The following are a set of request supported in the api:
 	- ../historical : This will import the data in mongo directly. An example will be:  
 		127.0.0.1:81/historical?is_batch=0	  
   	 	-param is_batch: Integer(1 or 0). The flag to differentiate if the imported will come in batch.
-            	The expected body will be include the fields below with :
-                 		- time
-                 		- kW
-                 		- temperature
-                 		- humidity
-                 		- building_id
-                 		- county
+            	The expected body will be include the fields below with :  
+                 		- time  
+                 		- kW  
+                 		- temperature  
+                 		- humidity  
+                 		- building_id  
+                 		- county  
             if it is 1, the expected body should have the fields as an array. If it is 0, the expected value should be individual item.
 
 	- ../historical/csv : This will import the data using csv file with a specified format. User can take a look at the files in test folder for the expected csv format. An example of the post will be:  
