@@ -14,7 +14,7 @@ from bokeh.plotting import figure
 from bokeh.models.formatters import DatetimeTickFormatter
 # st.set_page_config(layout="wide")
 
-base_url = r"http://127.0.0.1:81/"
+base_url = r"http://192.168.0.9/"
 
 # @st.cache
 def fetch_county():
